@@ -16,7 +16,7 @@ env:
 
 jobs:
   patch:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         arch: [x86, arm, arm64, mipsbe, mmips, smips, tile, ppc]
